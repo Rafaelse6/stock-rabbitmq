@@ -8,10 +8,10 @@
 		<version>2.7.11</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.microservico</groupId>
-	<artifactId>estoquepreco</artifactId>
+	<groupId>com.microservicos</groupId>
+	<artifactId>consumidorestoque</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>estoquepreco</name>
+	<name>consumidorestoque</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
@@ -19,18 +19,9 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId>
+			<artifactId>spring-boot-starter-amqp</artifactId>
 		</dependency>
 
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework.amqp</groupId>
-			<artifactId>spring-rabbit</artifactId>
-		</dependency>
 		<dependency>
 			<groupId>org.librabbitmq</groupId>
 			<artifactId>librabbitmq</artifactId>
